@@ -53,9 +53,16 @@ img {
 .grid {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin: 3rem auto;
     width: 1000px;
     height: 1000px;
+}
+
+span {
+    display: flex;
+    font-family: 'Black Ops One', cursive;
 }
 
 .box {

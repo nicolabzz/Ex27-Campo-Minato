@@ -8,19 +8,19 @@ btn.addEventListener('click', cardCreator);
 
 
 function cardCreator() {
-    
+
     boxGrid.innerHTML = '';
-    
+
     const option = document.getElementById('difficulty');
-    
+
     let i = 1;
 
     const boxArray = [];
-    
+
     while (i <= option.value) {
-        
+
         let cell = document.createElement('div');
-        
+
         if (option.value === '100')
         {
             cell.classList.add('box');
